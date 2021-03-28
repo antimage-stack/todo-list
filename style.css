@@ -18,9 +18,11 @@
 }
 
 @media (max-width: 768px) {
+
   .more-details-link { 
     text-align: center;
   }
+
 }
 .page-center {
   display: block;
@@ -77,7 +79,7 @@ input[type="text"] {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
- font-family: Lato, sans-serif;
+  font-family: Lato, sans-serif;
   color: #888;
 }
 input[type="text"]:focus {
