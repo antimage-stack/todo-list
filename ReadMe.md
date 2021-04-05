@@ -2,12 +2,12 @@
 
 # Функционал приложения :
 
-    - Добавление нового элемента в список задач "TODO"
-    - Редактирование элемента в списке задач "TODO"
-    - Удаление элемента из списка задач "TODO"
-    - Установка элемента в статус завершенного и перенос в список "COMPLETED" через checkbox
+    - Add new element in task list "TODO"
+    - Edit element in list "TODO"
+    - Delete element in list"TODO"
+    - Setting the item to the completed status and transferring it to the "COMPLETED" via checkbox
 
-    - Удаление элемента из списка "COMPLETED"
-    - Редактирование элемента из списка "COMPLETED"
-    - Установка элемента в статус незавершенного и перенос в список "TODO" через checkbox
-    - Анимация на кнопке удаления
+    - Delete element from list "COMPLETED"
+    - Edit element in list"COMPLETED"
+    - Setting the item to the uncompleted status and transferring it to list "TODO" via checkbox
+    - Animation on delete button
