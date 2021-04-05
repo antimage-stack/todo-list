@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel="stylesheet">
+  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+  <title>Todo App</title>
+</head>
+<body class="page">
+  <header class="more-details-link">
+    <img src="./eisenhower-matrix.jpg" alt="More details about this">
+    <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+  </header>
+  <article class="page__center">
+    <p id="add-section">
+      <label for="new-task">Add Item</label>
+      <div class="task-row__wrapper">
+        <input id="new-task"class="task" type="text">
+        <button>Add</button>
+      </div>
+    </p>
+    <h3>Todo</h3>
+    <ul id="incomplete-tasks">
+      <li>
+          <input type="checkbox">
+          <label class="task">Pay Bills</label>
+          <input type="text">
+          <button class="edit">Edit</button>
+          <button class="delete"><img src="./remove.svg" alt="remove button"></button></li>
+      <li class="edit-mode">
+          <input type="checkbox">
+          <label class="task">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="task">
+          <button class="edit">Save</button>
+        <button class="delete"><img src="./remove.svg" alt="remove button"></button>
+      </li>
+    </ul>
+    <h3>Completed</h3>
+    <ul id="completed-tasks">
+      <li>
+          <label class="task">See the Doctor</label>
+          <input type="text" class="task">
+          <input type="checkbox" checked>
+          <button class="edit">Edit</button>
+          <button class="delete"><img src="./remove.svg" alt="remove button"></button>
+      </li>
+    </ul>
+  </article>
+
+  <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
